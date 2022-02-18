@@ -15,7 +15,7 @@ export default function App() {
   return (
     <View style={styles.container}>
        <View style={styles.body}>
-         <Image  source={logo}/>
+         <Image  source={logo}  style={{width : 300, height : 90}}/>
         
          <Text style={styles.ip}>{data}</Text>
          <Button title='Descobrir meu IP'  onPress={findMyIp}/>
